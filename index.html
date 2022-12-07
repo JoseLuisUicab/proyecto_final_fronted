@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/normalize.css" />
+  <link rel="stylesheet" href="estilos/desktop.css" />
+  <link rel="stylesheet" href="estilos/movil.css" />
+  <link rel="stylesheet" href="estilos/slidefotos.css" />
+  <link rel="stylesheet" href="estilos/tinycarousel.css">
+  <link rel="stylesheet" href="estilos/somos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<!--   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css"> -->
+  <!-- <link rel="stylesheet" href="estilos/tooltip.css" /> -->
+  <script src="/fancybox/jquery.fancybox.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="javascript/responsiveslides.min.js"></script>
+
+  <script src="javascript/responsiveslides.js"></script>
+
+  <script type="text/javascript" src="javascript/jquery.tinycarousel.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#slider1').tinycarousel();
+    });
+  </script>
+
+  <script src="javascript/wow.min.js"></script>
+  <title>Clinica de Merida</title>
+</head>
+
+<body>
+  <i id="subir" class="fas fa-arrow-circle-up"></i>
+  <!-- HEADER -->
+  <header class="cab">
+    <div class="cab_bac">
+      <div class="cab_arriba ancho">
+        <div class="cab_iconos">
+          <i class="b fa-solid fa-house-chimney"></i>
+          Calle 32 No. 242, Colonia García Ginerés &nbsp;&nbsp;&nbsp;
+          <i class="b fa-solid fa-envelope"></i>
+          clinicamerida@gmail.com&nbsp;&nbsp;
+          <i class="b fa-regular fa-clock"></i>
+          lunes - sabado: 9am - 11pm
+        </div>
+
+        <div class="cab_redes">
+          <i class="d fa-brands fa-facebook-f"></i>
+          <i class="d fa-brands fa-twitter"></i>
+          <i class="d fa-brands fa-pinterest-p"></i>
+          <i class="d fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="cab_menu ancho">
+      <div class="cab_fn">
+        <figure>
+          <img src="imagenes/icono.png" alt="" />
+        </figure>
+        <h1 class="h">Clinica merida</h1>
+        <div class="cab_iconomenu" id="menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <nav>
+        <ul id="contenedormenu" class="cont">
+          <li><a href="index.html" class="a btn_ancla">Inicio</a></li>
+          <li><a href="somos.html" class="a">Quienes somos</a></li>
+          <li><a href="#servicio" class="a btn_ancla">servicios</a></li>
+          <li><a href="galeria.html" class="a">galeria</a></li>
+          <li><a href="#promociones" class="a btn_ancla">promociones</a></li>
+          <li><a href="#contacto" class="a btn_ancla">contacto</a></li>
+        </ul>
+      </nav>
+      <!--  <aside class="aside">
+          <a href="#">agendar cita</a>
+        </aside> -->
+    </div>
+
+  </header>
+  <!-- FIN DEL HEADER -->
+
+  <!--  <br /><br /><br /><br /><br> -->
+  <!-- SLIDE -->
+  <div class="callbacks_container">
+    <ul class="rslides" id="slider4">
+      <li>
+        <div class="caption ancho">
+          <div class="caption_info">
+            <div class="caption_f ancho">
+              <h3>Bienvenidos a clinica merida</h3>
+              <h1>
+                Mejor atención médica Para <br />
+                Médico de Familia.
+              </h1>
+
+              <p>
+                Te ayudaremos a sentirte mejor y a disfrutar cada día de tu
+                vida. puede ser la salud de <br />
+                más rápido crecimiento.
+              </p>
+
+              <br />
+              <a id="Btn" href="#">AGENDAR CITA</a>
+            </div>
+          </div>
+        </div>
+        <img src="imagenes/slide1.jpg" alt="" />
+      </li>
+      <li>
+        <div class="caption">
+          <div class="caption_info">
+            <div class="caption_f ancho">
+              <h3>Bienvenidos a clinica merida</h3>
+              <h1>
+                Mejor atención médica Para <br />
+                Médico de Familia.
+              </h1>
+
+              <p>
+                Te ayudaremos a sentirte mejor y a disfrutar cada día de tu
+                vida. puede ser la salud de <br />
+                más rápido crecimiento.
+              </p>
+
+              <br />
+           
+            </div>
+          </div>
+        </div>
+        <img src="imagenes/slide2.jpg" alt="" />
+      </li>
+      <li>
+        <div class="caption">
+          <div class="caption_info">
+            <div class="caption_f ancho">
+              <h3>Bienvenidos a clinica merida</h3>
+              <h1>
+                con los mejores medicos <br />
+                calificados
+              </h1>
+
+              <p>
+                Te ayudaremos a sentirte mejor y a disfrutar cada día de tu
+                vida. puede ser la salud de <br />
+                más rápido crecimiento.
+              </p>
+
+              <br />
+              
+            </div>
+          </div>
+        </div>
+        <img src="imagenes/slide3.jpg" alt="" />
+      </li>
+    </ul>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br>
+
+  <!-- CARUSEL DE SERVICIOS  -->
+  <section class="carusel" >
+    <div class="carusel_t ancho" id="servicio">
+      <h1>Nuestros Servicios</h1>
+    </div>
+    <article class="carusel_p ancho">
+      <p>Nuestro amplio catálogo de servicios médicos permite el diagnóstico y tratamiento de multiples padecimientos,
+        siempre con la calidad, calidez y profesionalismo que nos caracteriza.</p>
+    </article>
+
+    <div id="slider1" class="ancho">
+      <a class="buttons prev" href="#"><i class="fa-solid fa-angle-left"></i></a>
+      <div class="viewport">
+        <ul class="overview">
+          <li>
+            <img src="imagenes/audiologia.jpg" />
+            <h3>Gabinete de Audiología</h3>
+            <p><i class="i fa-solid fa-location-dot"></i>&nbsp;Entrada por la calle 30 (A espaldas de la esentrada
+              principal)</p>
+            <p><i class="i fa-solid fa-phone"></i>(999) 942-18-00 Ext.1009</p>
+            <p><i class="i fa-solid fa-clock"></i>&nbsp;Lunes a Viernes 8:00 am a 8:00 pm / Sábados 8:00 am a 1:00 pm
+            </p>
+            <br>
+            <div class="bo">
+              <a href="#" class="btn_vermas">Leer mas &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <br>
+          </li>
+          <li>
+            <img src="imagenes/cardiovascular (1).jpg" />
+            <h3>Centro Cardiovascular
+            </h3>
+            <p><i class="i fa-solid fa-location-dot"></i>&nbsp;Entrada por la calle 30 (A espaldas de la entrada
+              principal)</p>
+            <p><i class="i fa-solid fa-phone"></i>&nbsp;(999) 925-22-99</p>
+            <p><i class="i fa-solid fa-clock"></i>&nbsp;Lunes a Viernes 8:00 am a 8:00 pm / Sábados 8:00 am a 1:00 pm
+            </p>
+            <br>
+            <div class="bo">
+              <a href="#" class="btn_vermas">Leer mas &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <br>
+          </li>
+          <li>
+            <img src="imagenes/endoscopia.jpg" />
+            <h3>Endoscopia
+            </h3>
+            <p><i class="i fa-solid fa-location-dot"></i>&nbsp;Interior de la Clínica de Mérida
+            </p>
+            <p><i class="i fa-solid fa-phone"></i>&nbsp;(999) 942-18-00 Ext.1047</p>
+            <p><i class="i fa-solid fa-clock"></i>&nbsp;Lunes a Viernes 7:00 am a 8:00 pm / Sábados 8:00 am a 2:00 pm
+            </p>
+            <br>
+            <br>
+            <div class="bo">
+              <a href="#" class="btn_vermas">Leer mas &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <br>
+          </li>
+          <li>
+            <img src="imagenes/analisisclinicos.jpg" />
+            <h3>Laboratorio de Análisis Clínicos
+
+            </h3>
+            <p><i class="i fa-solid fa-location-dot"></i>&nbsp;Interior de la Clínica de Mérida
+            </p>
+            <p><i class="i fa-solid fa-phone"></i>(999)942-18-00 Ext.1218 y 1240 /(999) 925-99-38</p>
+            <p><i class="i fa-solid fa-clock"></i>&nbsp;Servicio las 24 Hrs.</p>
+            <br>
+            <br>
+            <div class="bo">
+              <a href="#" class="btn_vermas">Leer mas &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <br>
+          </li>
+          <li>
+            <img src="imagenes/resonancia.jpg" />
+            <h3>Resonancia Magnética
+            </h3>
+            <p><i class="i fa-solid fa-location-dot"></i>&nbsp;
+              Entrada por la calle 30 (A espaldas de la entrada principal)
+            </p>
+            <p><i class="i fa-solid fa-phone"></i>&nbsp;(999) 942-18-00 Ext.1112 / (999) 920-17-12</p>
+            <p><i class="i fa-solid fa-clock"></i>&nbsp;Lunes a Viernes 8:00 am a 8:00 pm / Sábados 8:00 am a 1:00 pm
+            </p>
+
+            <div class="bo">
+              <a href="#" class="btn_vermas">Leer mas &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <br>
+          </li>
+          <li>
+            <img src="imagenes/radiologia.jpg" />
+            <h3>Radiología e Imagen
+
+            </h3>
+            <p><i class="i fa-solid fa-location-dot"></i>&nbsp;
+              Interior de la Clínica de Mérida
+            </p>
+            <p><i class="i fa-solid fa-phone"></i>(999) 942-18-00 Ext.1119,1226 Y 1241</p>
+            <p><i class="i fa-solid fa-clock"></i>&nbsp;Servicio las 24 Hrs.</p>
+            <br>
+            <br>
+            <div class="bo">
+              <a href="#" class="btn_vermas">Leer mas &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <br>
+          </li>
+
+          <li>
+            <img src="imagenes/tomografia.jpg" />
+            <h3>Tomografía Computarizada
+            </h3>
+            <p><i class="i fa-solid fa-location-dot"></i>&nbsp;
+              Interior de la Clínica de Mérida
+            </p>
+            <p><i class="i fa-solid fa-phone"></i>&nbsp;(999) 942-18-00 Ext.1164</p>
+            <p><i class="i fa-solid fa-clock"></i>&nbsp;Lunes a Viernes 8:00 am a 7:00 pm / Sábados 8:00 am a 1:00 pm
+            </p>
+            <br>
+            <br>
+            <div class="bo">
+              <a href="#" class="btn_vermas">Leer mas &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <br>
+          </li>
+        </ul>
+      </div>
+      <a class="buttons next" href="#"><i class="fa-solid fa-angle-right"></i></a>
+      </di>
+  </section>
+  <!--FIN CARUSEL DE SERVICIOS -->
+
+  <!--ACORDEON  -->
+  <section class="elegir">
+    <div class="elegir_t">
+      <h1>¿Por qué elegir a clinica merida </h1>
+    </div>
+
+    <div class="elegir_c ancho">
+      <div class="elegir_c1">
+        <article class="acordeon">
+          <div class="acordeon_titulo titulo1">
+            <p>26 años de Experiencia</p>
+            <i class="icono1 rotar fa-solid fa-circle-arrow-down"></i>
+            <!-- &nbsp;&nbsp;&nbsp;
+            <div class="iconos">
+              <i class="fa-solid fa-plus mas1"></i>
+              <i class="fa-solid fa-minus menos1"></i>
+            </div> -->
+
+          </div>
+          <p class="acordeon_contenido contenido1">
+            por nuestra Experiencia estamos ampliamante capacitados para tratar a los pacientes como se merecen asi como
+            los medicos especialistas dar un diagnostico certero.
+          </p>
+        </article>
+
+
+        <article class="acordeon">
+          <div class="acordeon_titulo titulo2">
+            <p>Ambulacia de emergencia</p>
+            <i class="icono2 rotar fa-solid fa-circle-arrow-down"></i>
+            <!-- &nbsp;&nbsp;&nbsp;
+            <div class="iconos">
+              <i class="fa-solid fa-plus mas2"></i>
+              <i class="fa-solid fa-minus menos2"></i>
+            </div>
+            -->
+          </div>
+          <p class="acordeon_contenido contenido2">
+            Se emite sin cargo en consultorios médicos para domicilio con compra de tiempo de servicios por un monto
+            superior a $40 por persona ambiente elevado, completado.
+          </p>
+        </article>
+
+        <article class="acordeon">
+          <div class="acordeon_titulo titulo3">
+            <p>Resultados online</p>
+            <i class="icono3 rotar fa-solid fa-circle-arrow-down"></i>
+            <!-- &nbsp;&nbsp;&nbsp;
+            <div class="iconos">
+              <i class="fa-solid fa-plus mas3"></i>
+              <i class="fa-solid fa-minus menos3"></i>
+            </div> -->
+
+          </div>
+          <p class="acordeon_contenido contenido3">
+            Sistema de informática médica para consulta de resultados por Internet en tiempo real
+            <br>
+            Eficientamos la entrega de los resultados, ofreciéndolos vía internet y en un corto período de tiempo
+          </p>
+        </article>
+      </div>
+      <div class="elegir_c1">
+        <article class="acordeon">
+          <div class="acordeon_titulo titulo4">
+            <p>Clinica bien equipada</p>
+            <i class="icono4 rotar fa-solid fa-circle-arrow-down"></i>
+            <!-- &nbsp;&nbsp;&nbsp;
+            <div class="iconos">
+              <i class="fa-solid fa-plus mas4"></i>
+              <i class="fa-solid fa-minus menos4"></i>
+            </div>
+            -->
+          </div>
+          <p class="acordeon_contenido contenido4">
+            contamos con variedades equipos tecnologicos para tratar distintos estudios que el paciente requiera asi
+            como distitnos especialistas en el area
+          </p>
+        </article>
+
+
+        <article class="acordeon">
+          <div class="acordeon_titulo titulo5">
+            <p>mejores medicos</p>
+            <i class="icono5 rotar fa-solid fa-circle-arrow-down"></i>
+            <!-- &nbsp;&nbsp;&nbsp;
+            <div class="iconos">
+              <i class="fa-solid fa-plus mas5"></i>
+              <i class="fa-solid fa-minus menos5"></i>
+            </div> -->
+
+          </div>
+          <p class="acordeon_contenido contenido5">
+            en clinica merida buscamos a los medicos mas talentosos nos esforzamos cada día por brindarte un mejor
+            servicio.
+          </p>
+        </article>
+
+        <article class="acordeon">
+          <div class="acordeon_titulo titulo6">
+            <p>mejores instalaciones</p>
+            <i class="icono6 rotar fa-solid fa-circle-arrow-down"></i>
+            <!-- &nbsp;&nbsp;&nbsp;
+            <div class="iconos">
+              <i class="fa-solid fa-plus mas6"></i>
+              <i class="fa-solid fa-minus menos6"></i>
+            </div> -->
+
+          </div>
+          <p class="acordeon_contenido contenido6">
+            la clinica merida se ha ido expandido en yucatan y contando con las mejores instalaciones y equipamiento
+            para que el paciente se sienta seguro y sano con nosotros.
+          </p>
+        </article>
+      </div>
+
+    </div>
+  </section>
+  <!-- FIN DE ACORDEON -->
+
+  <section class="banner">
+    <div class="banner_bac">
+      <article class="banner_ar">
+        <h1>No esperes más y Agenda una cita con nosotros</h1>
+        <div class="banner_bo">
+          <a href="#" id="Btn1">Agendar Cita &nbsp;&nbsp; <i class="fa-solid fa-user-doctor"></i></a>
+          </divclas>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROMOCIONES -->
+  <section class="promo" >
+    <div class="elegir_t" id="promociones">
+      <h1>Promociones</h1>
+    </div>
+    <div class="promo_c ancho">
+      <div class="promo_ar">
+        <article class="promo_card">
+          <div class="promo_cir">
+            <h2>$ 3500 pesos</h2>
+          </div>
+          <div class="promo_info">
+            <p>Paquete de 10 sesiones de fisioterapia pagando en una sola exhibicion.</p>
+            <br>
+            <br>
+            <a href="#">Adquirir</a>
+          </div>
+        </article>
+
+
+        <article class="promo_card">
+          <div class="promo_cir">
+            <h2>30% de descuento</h2>
+          </div>
+          <div class="promo_info">
+            <p>en marcadores tumorales e infecciosos</p>
+            <br>
+            <br>
+            <br>
+            <a href="#">Adquirir</a>
+          </div>
+        </article>
+
+
+        <article class="promo_card">
+          <div class="promo_cir">
+            <h2>25% de descuento</h2>
+          </div>
+          <div class="promo_info">
+            <p>En hemoglobina glicosilada y quimica clinica</p>
+            <br>
+            <br>
+            <br>
+            <a href="#">Adquirir</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- FIN PROMOCIONES -->
+
+  <!-- FORMUARIO CONTACTO -->
+  <section class="contac" id="contacto">
+    <div class="elegir_t">
+      <h1>Contactanos</h1>
+    </div>
+
+    <div class="contac_c ancho">
+      <div class="contac_cf">
+        <figure>
+          <img src="imagenes/conatcto.jpg" alt=""></figure>
+      </div>
+        <fieldset>
+          <form action="#" id="form1" name="form1" method="POST" class="formulario" onsubmit="return validar();" value>
+            <input type="text" name="nombre" id="nom" placeholder="Nombre*" />
+            <input type="email" name="correo" id="co" placeholder="correo*" />
+            <input type="number" name="numero" id="nu" placeholder="numero*" />
+            <select name="select" >
+              <option value="" selected disabled>seleccionar servicio</option>
+              <option value="gab">Gabinete de Audiología</option>
+              <option value="cen">Centro Cardiovascular</option>
+              <option value="en">Endoscopia</option>
+              <option value="la">Laboratorio de Análisis Clínicos</option>
+              <option value="re">Resonancia Magnetica</option>
+              <option value="ra">Radiología e Imagen</option>
+              <option value="to">Tomografía Computarizada</option>
+            </select>
+    
+            <select name="select">
+              <option value="" selected disabled>seleccionar promocion</option>
+              <option value="value2">Paquete de 10 sesiones de fisioterapia pagando en una sola exhibicion.</option>
+              <option value="value3">en marcadores tumorales e infecciosos</option>
+              <option value="value3">En hemoglobina glicosilada y quimica clinica</option>
+              <option value="value3">si</option>
+              <option value="value3">no</option>
+            </select>
+    
+            
+            
+            <textarea id="ar" name="area" class="textarea" placeholder="Mensage*"></textarea>
+            <input type="submit" value="enviar" />
+            <input type="hidden" value="index.html">
+          </form>
+        </fieldset>
+    </div>
+  </section>
+  <!-- FIN DEL FORMUARIO CONTACTO -->
+  <!-- MODAl -->
+  <section id="modal" class="fondomodal">
+    <div class="contenidomodal">
+
+      <div class="estructuramodal">
+      <!--   <h1>Contacto</h1> -->
+        <i id="cerrarbtn" class="cerrarmodal fa-solid fa-xmark"></i>
+      </div>
+
+      <p>
+        contactanos para agendar tu cita
+      </p>
+
+      <form action="index.html" method="POST" class="formulario" onsubmit="return validar();">
+        <input type="text" name="nombre" id="nom" placeholder="Nombre*" />
+        <input type="email" name="correo" id="co" placeholder="correo*" />
+        <input type="number" name="numero" id="nu" placeholder="numero*" />
+        <select name="select" >
+          <option value="" selected disabled>seleccionar servicio</option>
+          <option value="gab">Gabinete de Audiología</option>
+          <option value="cen">Centro Cardiovascular</option>
+          <option value="en">Endoscopia</option>
+          <option value="la">Laboratorio de Análisis Clínicos</option>
+          <option value="re">Resonancia Magnetica</option>
+          <option value="ra">Radiología e Imagen</option>
+          <option value="to">Tomografía Computarizada</option>
+        </select>
+
+        <select name="select">
+          <option value="" selected disabled>seleccionar promocion</option>
+          <option value="value2">Paquete de 10 sesiones de fisioterapia pagando en una sola exhibicion.</option>
+          <option value="value3">en marcadores tumorales e infecciosos</option>
+          <option value="value3">En hemoglobina glicosilada y quimica clinica</option>
+          <option value="value3">si</option>
+          <option value="value3">no</option>
+        </select>
+
+        
+        
+        <textarea class="textarea" placeholder="Mensage*"></textarea>
+        <input type="submit" value="SUBMIT" />
+        <input type="hidden" value="index.html">
+      </form>
+    </div>
+  </section>
+  <!--FIN DEL MODAL  -->
+
+  <br><br><br>
+
+  <div style="height: 70px; overflow: hidden;">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+        style="stroke: none; fill: #203060;"></path>
+    </svg>
+  </div>
+  <footer class="pie">
+    <div class="pie_c ancho">
+      <div class="pie_s">
+        <h1>¡Suscríbete a nuestro newsletter!</h1>
+        <p>
+          Regístrate para recibir nuestras promociones y artículos que puedan
+          ser de tu interés.
+        </p>
+      </div>
+      <div class="pie_ser">
+        <h2>Servicios</h2>
+        <p>Ambulancia: (999) 338-39-05</p>
+        <p>Urgencias: (999) 920-39-14</p>
+        <p>Conmutador: (999) 942-18-00</p>
+      </div>
+      <div class="pie_si">
+        <h2>siguenos</h2>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <p>
+          Términos y condiciones <br />
+          Aviso de privacidad
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- FIN DEL SLIDE -->
+  <script src="javascript/funciones.js"></script>
+  <script src="javascript/menu.js"></script>
+  <script>
+    new WOW().init();
+</script>
+  <script src="https://kit.fontawesome.com/59df0bc859.js" crossorigin="anonymous"></script>
+  <!-- scripts -->
+  <!--   <script src="javascript/responsiveslides.js"></script> -->
+  <!-- FIN del scripts -->
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --arriba: #f1f7fc;
+  --textoslide: #222222;
+  --azul: #3da3d4;
+  --colorico: #989899;
+  --fuenslide: #232322;
+  --titulo: #203060;
+  --titulos: "Kdam Thmor Pro", sans-serif;
+  --fuente: "Oswald", sans-serif;
+  --texto1: "open sans";
+}
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--azul);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid var(--titulo);
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+body {
+  line-height: 24px;
+  color: #333;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.somos {
+  /*   background: #203060;
+  padding: 40px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 29%, 49% 38%, 0 31%); */
+  border: 1px solid gold;
+}
+.somos_t {
+  text-align: center;
+  /*   margin: 20px auto; */
+  font-family: var(--titulos);
+  font-size: 2.3rem;
+  background: var(--titulo);
+  padding: 30px;
+  color: #3da3d4;
+}
+.curva {
+  height: 90px;
+  overflow: hidden;
+}
+.somos_vt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid tomato;
+}
+
+.somos_ar {
+  width: 550px;
+  font-family: var(--texto1);
+  text-align: justify;
+  padding: 10px;
+}
+.vid {
+  width: 680px;
+  padding: 10px;
+}
+.vid iframe {
+  width: 100%;
+  height: 500px;
+}
+.az {
+  color: #203060;
+  font-weight: bold;
+}
+.team_t h1 {
+  text-align: center;
+/*   border: 1px solid gold; */
+  margin: 70px auto;
+  color: #f1f7fc;
+  font-family: var(--titulos);
+  font-size: 2.3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .somos_vt {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  /*   border: 1px solid tomato; */
+  }
+  .vid {
+    max-width: 100%;
+    height: 500px;
+  }
+  .somos_ar {
+    margin-top: 15px;
+    max-width: 100%;
+  }
+  .team_t h1 {
+    font-family: var(--titulos);
+    font-size: 2rem;
+    line-height: 32px;
+  }
+}
+
+/* .team {
+  background: var(--cajateam);
+  padding: 50px;
+} */

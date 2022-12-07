@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/normalize.css" />
+  <link rel="stylesheet" href="estilos/desktop.css" />
+  <link rel="stylesheet" href="estilos/movil.css" />
+  <link rel="stylesheet" href="estilos/somos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<!--   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css"> -->
+  <!-- <link rel="stylesheet" href="estilos/tooltip.css" /> -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="javascript/wow.min.js"></script>
+
+  <title>Clinica de Merida</title>
+</head>
+
+<body>
+  <i id="subir" class="fas fa-arrow-circle-up"></i>
+  <!-- HEADER -->
+  <header class="cab">
+    <div class="cab_bac">
+      <div class="cab_arriba ancho">
+        <div class="cab_iconos">
+          <i class="b fa-solid fa-house-chimney"></i>
+          Calle 32 No. 242, Colonia García Ginerés &nbsp;&nbsp;&nbsp;
+          <i class="b fa-solid fa-envelope"></i>
+          clinicamerida@gmail.com&nbsp;&nbsp;
+          <i class="b fa-regular fa-clock"></i>
+          lunes - sabado: 9am - 11pm
+        </div>
+
+        <div class="cab_redes">
+          <i class="d fa-brands fa-facebook-f"></i>
+          <i class="d fa-brands fa-twitter"></i>
+          <i class="d fa-brands fa-pinterest-p"></i>
+          <i class="d fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="cab_menu ancho">
+      <div class="cab_fn">
+        <figure>
+          <img src="imagenes/icono.png" alt="" />
+        </figure>
+        <h1 class="h">Clinica merida</h1>
+        <div class="cab_iconomenu" id="menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <nav>
+        <ul id="contenedormenu" class="cont">
+          <li><a href="index.html" class="a btn_ancla">Inicio</a></li>
+          <li><a href="somos.html" class="a">Quienes somos</a></li>
+          <li><a href="#servicio" class="a btn_ancla">servicios</a></li>
+          <li><a href="galeria.html" class="a">galeria</a></li>
+          <li><a href="#promociones" class="a btn_ancla">promociones</a></li>
+          <li><a href="#contacto" class="a btn_ancla">contacto</a></li>
+        </ul>
+      </nav>
+      <!--  <aside class="aside">
+          <a href="#">agendar cita</a>
+        </aside> -->
+    </div>
+
+  </header>
+  <!-- FIN DEL HEADER -->
+
+    <section class="somos">
+      <div class="somos_t">
+        <i class="v fa-solid fa-user-doctor"></i>
+        <h1>¿Quienes somos?</h1>
+      </div>
+      <div class="curva">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%;"
+        >
+          <path
+            d="M0.00,49.98 C102.99,133.72 391.36,136.69 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+            style="stroke: none; fill: #203060;"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="somos_vt ancho">
+        <div class="vid">
+          <iframe
+            id="video"
+            width="500"
+            height="500"
+            src="https://www.youtube.com/embed/-nR6zGu7hho"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <article class="somos_ar">
+          <p>
+            <span class="az">La Clínica de Mérida</span> es la organización
+            hospitalaria privada más importante de la Península de Yucatán.
+            <br /><br />Los objetivos que la han llevado a convertirse en la
+            institución que es hoy en día, son: <br /><br /><i
+              class="fa-solid fa-check"
+            ></i>
+            La ampliación de su infraestructura tanto física como laboral.
+            <br />
+            <i class="fa-solid fa-check"></i>La introducción de avances
+            tecnológicos de la ciencia médica. <br />
+            <i class="fa-solid fa-check"></i> Talento humano altamente
+            capacitado y de excelencia.
+          </p>
+          <br />
+          <p>
+            Alcanzar esta categoría, es el resultado de la dedicación, esfuerzo
+            y trabajo de un grupo de médicos y empresarios visionarios que
+            vislumbraron el éxito y beneficios que se brindan a la comunidad
+            yucateca y regional, desde la memorable fecha del 15 de junio de
+            1961, en que se constituye Clínica de Mérida S.A. de C.V.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- los medicos mas representaivos -->
+
+    <section class="team">
+      <div class="team_t ancho">
+        <h1>Nuestros medicos mas representativos</h1>
+      </div>
+
+      <div class="team_member ancho">
+        <article class="team_member_ar">
+          <figure>
+            <i class="za fa-solid fa-x-ray"></i>
+            <img src="imagenes/medico1.jpg" alt="" />
+          </figure>
+          <div class="filtro"></div>
+          <div class="team_member_tip">
+            <h3>Dr. Abel de la Peña Salcedo</h3>
+            <p>Radiologia</p>
+          </div>
+          <div class="redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </article>
+
+        <article class="team_member_ar">
+          <figure>
+            <i class="za fa-solid fa-microscope"></i>
+            <img src="imagenes/medico2.jpg" alt="" />
+          </figure>
+          <div class="filtro"></div>
+          <div class="team_member_tip">
+            <h3>Dr. Alejandro Lichtinger Dondish</h3>
+            <p>Endoscopía</p>
+          </div>
+          <div class="redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </article>
+
+        <article class="team_member_ar">
+          <figure>
+            <i class="za fa-solid fa-heart-pulse"></i>
+            <img src="imagenes/medico3.jpg" alt="" />
+          </figure>
+          <div class="filtro"></div>
+          <div class="team_member_tip">
+            <h3>Dra. Alfonsina Ávila Romay</h3>
+            <p>Cardiología</p>
+          </div>
+          <div class="redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </article>
+
+        <article class="team_member_ar">
+          <figure>
+            <i class="za fa-solid fa-ear-listen"></i>
+            <img src="imagenes/medico4.jpg" alt="" />
+          </figure>
+          <div class="filtro"></div>
+          <div class="team_member_tip">
+            <h3>Dr. Alejandro Rossano García</h3>
+            <p>Audiología</p>
+          </div>
+          <div class="redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </article>
+      </div>
+    </section>
+    <br><br><br>
+
+    <div style="height: 70px; overflow: hidden;">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%;"
+      >
+        <path
+          d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #203060;"
+        ></path>
+      </svg>
+    </div>
+    <footer class="pie">
+      <div class="pie_c ancho">
+        <div class="pie_s">
+          <h1>¡Suscríbete a nuestro newsletter!</h1>
+          <p>
+            Regístrate para recibir nuestras promociones y artículos que puedan
+            ser de tu interés.
+          </p>
+        </div>
+        <div class="pie_ser">
+          <h2>Servicios</h2>
+          <p>Ambulancia: (999) 338-39-05</p>
+          <p>Urgencias: (999) 920-39-14</p>
+          <p>Conmutador: (999) 942-18-00</p>
+        </div>
+        <div class="pie_si">
+          <h2>siguenos</h2>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <p>
+            Términos y condiciones <br />
+            Aviso de privacidad
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/funciones.js"></script>
+    <script
+      src="https://kit.fontawesome.com/59df0bc859.js"
+      crossorigin="anonymous"
+    ></script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,158 @@
+:root {
+  --arriba: #f1f7fc;
+  --textoslide: #222222;
+  --azul: #3da3d4;
+  --colorico: #989899;
+  --fuenslide: #232322;
+  --titulo: #203060;
+  --titulos: "Kdam Thmor Pro", sans-serif;
+}
+@media screen and (max-width: 480px) {
+  .cab_bac {
+    display: none;
+  }
+  .cab_menu {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cab_fn {
+    padding: 0px 10px 0px 0px;
+    background: var(--titulo);
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+    background: var(--titulo);
+    padding: 0px 0px;
+    position: relative;
+  }
+  nav ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    background-color: white;
+    z-index: 1000;
+    /* display: none; */
+    top: 100%;
+    left: -100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  nav ul.abrirmenu {
+    left: 0px;
+  }
+  nav ul li {
+    border-bottom: 1px var(--titulo) dotted;
+    width: 100%;
+  }
+  nav ul li a {
+    /*     color: var(--titulo); */
+    display: block;
+  }
+  .cab_fn .cab_iconomenu {
+    display: block;
+    color: #f1f7fc;
+    background: #3da3d4;
+    border-radius: 10px;
+  }
+  .a {
+    color: var(--titulo);
+    border-radius: 0;
+  }
+
+  .cab_menu h1 {
+    display: none;
+  }
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+  .galeria figure:hover img {
+    filter: grayscale(0%);
+  }
+  .galeria article .modal {
+    top: 44%;
+  }
+  .team_member {
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 26px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid green;
+  }
+  .team_member .team_member_ar {
+    border-bottom: var(--texto1) 1px solid;
+    width: 90%;
+    margin: 20px auto;
+  }
+  .team_member_ar:hover .filtro {
+    opacity: 0;
+  }
+  .team_member_ar .redes {
+    opacity: 1;
+    right: 0;
+  }
+  .planes_precios_caja {
+    border: 1px solid var(--cajateam);
+  }
+  .fondomodal .contenidomodal {
+    width: 95%;
+  }
+  .elegir_c1 {
+    padding: 0px 5px;
+    width: 100%;
+  }
+  .elegir_c {
+    flex-direction: column;
+    align-items: center;
+  }
+  .acordeon {
+    max-width: 100%;
+    margin: 5px auto;
+/*     border: 1px solid gold; */
+    /*  margin: auto; */
+  }
+  .contac_c {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contac_cf {
+    display: none;
+  }
+  .promo_ar .promo_card {
+    width: 100%;
+    overflow: hidden;
+    margin: 15px auto;
+  }
+  .elegir_t {
+ /*    border: 1px solid gold; */
+    font-family: var(--titulos);
+    font-size: 2rem;
+    line-height: 39px;
+  }
+  .banner_ar h1 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    line-height: 37px;
+    font-family: var(--titulos);
+  }
+  .pie_c {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pie_s,
+  .pie_ser,
+  .pie_si {
+    margin: 10px auto;
+    line-height: 37px;
+  }
+}
