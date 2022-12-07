@@ -1,111 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="estilos/normalize.css" />
-  <link rel="stylesheet" href="estilos/desktop.css" />
-  <link rel="stylesheet" href="estilos/movil.css" />
-  <link rel="stylesheet" href="estilos/slidefotos.css" />
-  <link rel="stylesheet" href="estilos/tinycarousel.css">
-  <link rel="stylesheet" href="estilos/somos.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <link rel=" icon" href="/imagenes/icono.png">   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/normalize.css" />
+    <link rel="stylesheet" href="estilos/desktop.css" />
+    <link rel="stylesheet" href="estilos/movil.css" />
+    <link rel="stylesheet" href="estilos/slidefotos.css" />
+    <link rel="stylesheet" href="estilos/somos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel=" icon" href="/imagenes/icono.png" />
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
-  <script src="/fancybox/jquery.fancybox.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-  <script src="javascript/responsiveslides.min.js"></script>
+    <script src="/fancybox/jquery.fancybox.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-  <script src="javascript/responsiveslides.js"></script>
+    <script src="javascript/wow.min.js"></script>
+    <script src="javascript/funciones.js"></script>
+    <title>Clinica de Merida</title>
+  </head>
 
-  <script type="text/javascript" src="javascript/jquery.tinycarousel.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <body>
+    <i id="subir" class="fas fa-arrow-circle-up"></i>
+    <!-- HEADER -->
+    <header class="cab">
+      <div class="cab_bac">
+        <div class="cab_arriba ancho">
+          <div class="cab_iconos">
+            <i class="b fa-solid fa-house-chimney"></i>
+            Calle 32 No. 242, Colonia García Ginerés &nbsp;&nbsp;&nbsp;
+            <i class="b fa-solid fa-envelope"></i>
+            clinicamerida@gmail.com&nbsp;&nbsp;
+            <i class="b fa-regular fa-clock"></i>
+            lunes - sabado: 9am - 11pm
+          </div>
 
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $('#slider1').tinycarousel();
-    });
-  </script>
-
-  <script src="javascript/wow.min.js"></script>
-  <title>Clinica de Merida</title>
-</head>
-
-<body>
-  <i id="subir" class="fas fa-arrow-circle-up"></i>
-  <!-- HEADER -->
-  <header class="cab">
-    <div class="cab_bac">
-      <div class="cab_arriba ancho">
-        <div class="cab_iconos">
-          <i class="b fa-solid fa-house-chimney"></i>
-          Calle 32 No. 242, Colonia García Ginerés &nbsp;&nbsp;&nbsp;
-          <i class="b fa-solid fa-envelope"></i>
-          clinicamerida@gmail.com&nbsp;&nbsp;
-          <i class="b fa-regular fa-clock"></i>
-          lunes - sabado: 9am - 11pm
-        </div>
-
-        <div class="cab_redes">
-          <i class="d fa-brands fa-facebook-f"></i>
-          <i class="d fa-brands fa-twitter"></i>
-          <i class="d fa-brands fa-pinterest-p"></i>
-          <i class="d fa-brands fa-youtube"></i>
+          <div class="cab_redes">
+            <i class="d fa-brands fa-facebook-f"></i>
+            <i class="d fa-brands fa-twitter"></i>
+            <i class="d fa-brands fa-pinterest-p"></i>
+            <i class="d fa-brands fa-youtube"></i>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="cab_menu ancho">
-      <div class="cab_fn">
-        <figure>
-          <img src="imagenes/icono.png" alt="" />
-        </figure>
-        <h1 class="h">Clinica merida</h1>
-        <div class="cab_iconomenu" id="menu">
-          <i class="fas fa-bars"></i>
+      <div class="cab_menu ancho">
+        <div class="cab_fn">
+          <figure>
+            <img src="imagenes/icono.png" alt="" />
+          </figure>
+          <h1 class="h">Clinica merida</h1>
+          <div class="cab_iconomenu" id="menu">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
-      </div>
-      <nav>
-        <ul id="contenedormenu" class="cont">
-          <li><a href="index.html" class="a btn_ancla">Inicio</a></li>
-          <li><a href="somos.html" class="a">Quienes somos</a></li>
-          <li><a href="#servicio" class="a btn_ancla">servicios</a></li>
-          <li><a href="galeria.html" class="a">galeria</a></li>
-          <li><a href="#promociones" class="a btn_ancla">promociones</a></li>
-          <li><a href="#contacto" class="a btn_ancla">contacto</a></li>
-        </ul>
-      </nav>
-      <!--  <aside class="aside">
+        <nav>
+          <ul id="contenedormenu" class="cont">
+            <li><a href="index.html" class="a btn_ancla">Inicio</a></li>
+            <li><a href="somos.html" class="a">Quienes somos</a></li>
+            <li><a href="#servicio" class="a btn_ancla">servicios</a></li>
+            <li><a href="galeria.html" class="a">galeria</a></li>
+            <li><a href="#promociones" class="a btn_ancla">promociones</a></li>
+            <li><a href="#contacto" class="a btn_ancla">contacto</a></li>
+          </ul>
+        </nav>
+        <!--  <aside class="aside">
           <a href="#">agendar cita</a>
         </aside> -->
-    </div>
+      </div>
+    </header>
+    <!-- FIN DEL HEADER -->
+    <section class="somos">
+      <div class="somos_t">
+        <i class="v fa-solid fa-user-doctor"></i>
+        <h1>Galeria</h1>
+      </div>
+      <div class="curva">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%;"
+        >
+          <path
+            d="M0.00,49.98 C102.99,133.72 391.36,136.69 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+            style="stroke: none; fill: #203060;"
+          ></path>
+        </svg>
+      </div>    
+    </section>
+    <!-- GALERIA -->
+    <section id="galeria" class="ancho cf">
+      <a
+        href="/imagenes/gal1.jpg"
+        class="fancybox"
+        title="gimnasio1"
+        rel="gallery1"
+      >
+        <img src="/imagenes/gal1.jpg" alt="" />
+      </a>
 
-  </header>
-  <!-- FIN DEL HEADER -->
+      <a
+        href="/imagenes/gal2.jpg"
+        class="fancybox"
+        title="gimnasio1"
+        rel="gallery1"
+      >
+        <img src="/imagenes/gal2.jpg" alt="" />
+      </a>
 
-  <!-- GALERIA -->
-  <section id="galeria" class="ancho cf">
-    <a href="/imagenes/foto1.jpg" class="fancybox" title="gimnasio1" rel="gallery1">
-      <img src="/imagenes/foto1.jpg" alt="">
-    </a>
+      <a
+        href="/imagenes/gal3.jpg"
+        class="fancybox"
+        title="gimnasio1"
+        rel="gallery1"
+      >
+        <img src="/imagenes/gal3.jpg" alt="" />
+      </a>
 
-    <a href="/imagenes/foto2.jpg" class="fancybox" title="gimnasio1" rel="gallery1">
-      <img src="/imagenes/foto2.jpg" alt="">
-    </a>
+      <a
+        href="/imagenes/gal4.jpg"
+        class="fancybox"
+        title="gimnasio1"
+        rel="gallery1"
+      >
+        <img src="/imagenes/gal4.jpg" alt="" />
+      </a>
 
-    <a href="/imagenes/foto3.jpg" class="fancybox" title="gimnasio1" rel="gallery1">
-      <img src="/imagenes/foto3.jpg" alt="">
-    </a>
+      <a
+        href="/imagenes/gal1.jpg"
+        class="fancybox"
+        title="gimnasio1"
+        rel="gallery1"
+      >
+        <img src="/imagenes/gal1.jpg" alt="" />
+      </a>
+
+      <a
+        href="/imagenes/gal2.jpg"
+        class="fancybox"
+        title="gimnasio1"
+        rel="gallery1"
+      >
+        <img src="/imagenes/gal2.jpg" alt="" />
+      </a>
+
+      <a
+        href="/imagenes/gal3.jpg"
+        class="fancybox"
+        title="gimnasio1"
+        rel="gallery1"
+      >
+        <img src="/imagenes/gal3.jpg" alt="" />
+      </a>
+
+      <a
+        href="/imagenes/gal4.jpg"
+        class="fancybox"
+        title="gimnasio1"
+        rel="gallery1"
+      >
+        <img src="/imagenes/gal4.jpg" alt="" />
+      </a>
+
+      <a
+        href="/imagenes/gal2.jpg"
+        class="fancybox"
+        title="gimnasio1"
+        rel="gallery1"
+      >
+        <img src="/imagenes/gal2.jpg" alt="" />
+      </a>
+    </section>
+<br><br>
+    <footer class="pie">
+      <div class="pie_c ancho">
+        <div class="pie_s">
+          <h1>¡Suscríbete a nuestro newsletter!</h1>
+          <p>
+            Regístrate para recibir nuestras promociones y artículos que puedan
+            ser de tu interés.
+          </p>
+        </div>
+        <div class="pie_ser">
+          <h2>Servicios</h2>
+          <p>Ambulancia: (999) 338-39-05</p>
+          <p>Urgencias: (999) 920-39-14</p>
+          <p>Conmutador: (999) 942-18-00</p>
+        </div>
+        <div class="pie_si">
+          <h2>siguenos</h2>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <p>
+            Términos y condiciones <br />
+            Aviso de privacidad
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- FIN DE GALERIA -->
+    <script src="https://kit.fontawesome.com/59df0bc859.js" crossorigin="anonymous"></script>
+  </body>
+</html>
 
 
-    <a href="/imagenes/foto4.jpg" class="fancybox" title="gimnasio1" rel="gallery1">
-      <img src="/imagenes/foto4.jpg" alt="">
-    </a>
-
-    <a href="/imagenes/foto5.jpg" class="fancybox" title="gimnasio1" rel="gallery1">
-      <img src="/imagenes/foto5.jpg" alt="">
-    </a>
-  </section>
-  <!-- FIN DE GALERIA -->
