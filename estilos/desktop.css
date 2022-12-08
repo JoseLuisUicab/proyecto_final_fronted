@@ -247,7 +247,7 @@ nav ul li a:hover {
   border: 1px solid rgb(209, 209, 209);
 }
 .elegir {
-  background-image: url(/imagenes/fondo.jpg);
+  background-image: url(/¿imagenes/fondo.jpg);
   border: 1px solid gray;
 }
 .elegir_c {
@@ -306,7 +306,7 @@ nav ul li a:hover {
 }
 
 .banner {
-  background-image: url(/imagenes/banner.jpg);
+  background-image: url(imagenes/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
