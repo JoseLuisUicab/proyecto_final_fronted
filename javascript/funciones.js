@@ -3,8 +3,8 @@
 // });
 
 // Funcion para el menu responsive
-$("#menu").click(function () {
-  $("#contenedormenu").toggleClass("abrirmenu");
+$(".container").click(function () {
+  $(".contenedormenu").toggleClass("abrirmenu");
 });
 
 // Funcion para desplazamiento de los vinculos

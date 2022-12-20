@@ -161,7 +161,7 @@ nav ul li a {
   transition: all 0.5s;
   font-weight: bold;
   /*  font-size: 18px; */
-  border-radius: 0.5rem;
+ /*  border-radius: 0.5rem; */
 }
 nav ul li a:hover {
   background-color: var(--titulo);
