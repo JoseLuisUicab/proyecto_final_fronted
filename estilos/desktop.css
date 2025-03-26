@@ -62,7 +62,7 @@ body {
   /*   border: 1px solid red; */
 }
 .cab {
-  /* border: 1px solid gold; */
+  border: 1px solid gold;
   position: sticky;
   z-index: 900;
   top: 0;
